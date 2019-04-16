@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DACDE55A226563E500EDF032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE559226563E500EDF032 /* AppDelegate.swift */; };
-		DACDE55C226563E500EDF032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE55B226563E500EDF032 /* ViewController.swift */; };
+		DACDE55C226563E500EDF032 /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE55B226563E500EDF032 /* MathViewController.swift */; };
 		DACDE55F226563E500EDF032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACDE55D226563E500EDF032 /* Main.storyboard */; };
 		DACDE561226563E600EDF032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACDE560226563E600EDF032 /* Assets.xcassets */; };
 		DACDE564226563E600EDF032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACDE562226563E600EDF032 /* LaunchScreen.storyboard */; };
+		DACDE56C226569D400EDF032 /* ExerciseCoach.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE56B226569D400EDF032 /* ExerciseCoach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DACDE556226563E500EDF032 /* Mathematic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathematic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACDE559226563E500EDF032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DACDE55B226563E500EDF032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACDE55B226563E500EDF032 /* MathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
 		DACDE55E226563E500EDF032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DACDE560226563E600EDF032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACDE563226563E600EDF032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACDE565226563E600EDF032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACDE56B226569D400EDF032 /* ExerciseCoach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCoach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				DACDE559226563E500EDF032 /* AppDelegate.swift */,
-				DACDE55B226563E500EDF032 /* ViewController.swift */,
+				DACDE55B226563E500EDF032 /* MathViewController.swift */,
 				DACDE55D226563E500EDF032 /* Main.storyboard */,
 				DACDE560226563E600EDF032 /* Assets.xcassets */,
 				DACDE562226563E600EDF032 /* LaunchScreen.storyboard */,
 				DACDE565226563E600EDF032 /* Info.plist */,
+				DACDE56B226569D400EDF032 /* ExerciseCoach.swift */,
 			);
 			path = Mathematic;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACDE55C226563E500EDF032 /* ViewController.swift in Sources */,
+				DACDE55C226563E500EDF032 /* MathViewController.swift in Sources */,
+				DACDE56C226569D400EDF032 /* ExerciseCoach.swift in Sources */,
 				DACDE55A226563E500EDF032 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
